@@ -47,6 +47,7 @@ main {
   margin-bottom: 2%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   gap: 0.5rem;
 }
 .grid-col-span {
@@ -54,6 +55,7 @@ main {
 }
 .card {
   border: turquoise thick solid;
+  /* grid-row: 1/2; */
 }
 footer {
   display: grid;
