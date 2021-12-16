@@ -1,0 +1,72 @@
+header {
+  border-bottom: black thin solid;
+}
+.navBar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+.box {
+  /* border: solid black 1px; */
+  grid-column: 1/2;
+}
+.signupBox {
+  border: black solid 2px;
+  display: flex;
+  justify-content: center;
+  /* align-content: center; */
+}
+.figCapt {
+  order: -1;
+  padding-top: 10%;
+}
+.space {
+  grid-column: 2/4;
+}
+.navP2 {
+  padding-top: 15px;
+}
+.navList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.8rem;
+  list-style-type: none;
+  /* justify-content: space-around; */
+}
+.navItem {
+  /* background-color: brown; */
+  display: inline-block;
+  padding-left: 27%;
+}
+.navItem img {
+  width: 30px;
+}
+
+main {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+.grid-col-span {
+  grid-column: span 2;
+}
+.card {
+  border: turquoise thick solid;
+}
+footer {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: rgb(71, 65, 65);
+}
+.sMedia {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.fContent {
+  direction: rtl;
+  padding-right: 10px;
+  color: white;
+}
